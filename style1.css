@@ -1,0 +1,245 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background-image: url(aa.png);
+	background-size: cover;
+	background-position: center;
+	
+	font-family: sans-serif;
+}
+.menu-bar{
+	background: #000;
+	text-align: center;
+}
+.menu-bar ul{
+	display: inline-flex;
+	list-style: none;
+	color: #fff;
+}
+.menu-bar ul li{
+	width: 120px;
+	margin: 15px;
+	padding: 15px;
+}
+.menu-bar ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+.active , .menu-bar ul li:hover{
+	background: lightskyblue;
+	border-radius: 3px;
+}
+.submenu1{
+	display: none;
+}
+.menu-bar ul li:hover .submenu1{
+	display: block;
+	position: absolute;
+	background: black;
+	margin-top: 15px;
+	margin-left: -15px;
+	z-index: 1;
+}
+.menu-bar ul li:hover .submenu1 ul{
+	display: block;
+	margin: 10px;
+}
+.menu-bar ul li:hover .submenu1 ul li{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted #fff;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+}
+.menu-bar ul li:hover .submenu1 ul li:last-child{
+	border-bottom: none;
+}
+.menu-bar ul li:hover .submenu1 ul li:hover{
+	color: #b2ff00;
+}
+.slider{
+        width: 500px;
+        height: 300px;
+        background-color: black;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        text-align: center;
+        overflow: hidden;
+      }
+      .image-container {
+        width: 1500px;
+        background-color: pink;
+        height: 300px;
+        clear: both;
+        position: relative;
+        -webkit-transition: left 2s;
+        -moz-transition: left 2s;
+        -o-transition: left 2s;
+        transition: left 2s;
+      }
+      .slide {
+        float: left;
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+      }
+      #slide-1:target ~ .image-container {
+        left: 0px;
+      }
+      #slide-2:target ~ .image-container {
+        left: -500px;
+      }
+      #slide-3:target ~ .image-container {
+        left: -1000px;
+      }
+      .buttons {
+        position: relative;
+        top: -20px;
+      }
+      .buttons a {
+        display: inline-block;
+        height: 15px;
+        width: 15px;
+        border-radius: 50px;
+        background-color: floralwhite;
+      }
+
+      */*{
+
+	margin: 0px;
+	padding: 0px;
+	font-family: georgia;
+	text-align: center;
+	
+
+
+
+}
+
+#menu ul{
+	list-style: none;
+	font-size: 18px;
+	font-family: Georgia;
+	text-align: center;
+	background-color: rgba(51, 28, 25, 0.85);
+
+	
+	
+}
+#menu ul li{
+	background-color: rgba(51, 28, 25, 0.85);
+	border: 0.1px solid white;
+	width: 223px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	float: left;
+	position: relative;
+	border-radius: 6px;
+
+	
+
+}
+
+#menu ul li a{
+	text-decoration: none;
+	color:white;
+	display: block;
+
+}
+
+#menu ul li a:hover {
+	background-color: #2F4F4F;
+	border-radius: 0.1px;
+
+}
+
+#menu ul ul{
+	position: absolute;
+	display: none;
+
+    
+}
+
+#menu ul li:hover > ul{
+	display: block;
+
+}
+
+#menu ul ul ul{
+	margin-left: 227px;
+	top: 0px;
+
+    
+}
+
+input[type=text] {
+    border: 2px solid white;
+	width: 223px;
+	height: 40px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url(search.png);
+    padding-top: 40px;
+    background-position: 1px 1px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+
+.headline{
+	font-style: georgia;
+	text-align: center;
+	color: #2F4F4F;
+
+}
+
+
+#public{
+	font-size: 18px;
+	text-align: center;
+
+}
+
+#private{
+	font-size: 22px;
+	
+	text-align: center;
+	background-image: url(photo17.jpg);
+	 position:absolute;
+	 z-index:0;
+	 left:0;
+	 top:0;
+	 width:100%;
+	 height:100%;
+	 background-repeat: no-repeat;
+
+
+}
+#public{
+	font-size: 22px;
+	text-decoration: 
+	text-align: center;
+	background-image: url(photo18.jpg);
+	 position:absolute;
+	 z-index:0;
+	 left:0;
+	 top:0;
+	 width:100%;
+	 height:100%;
+	 background-repeat: no-repeat;
+
+ }*/

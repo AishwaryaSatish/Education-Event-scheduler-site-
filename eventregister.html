@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>register for event</title>
+	<link rel="stylesheet" type="text/css" href="eventregister.css">
+</head>
+<body>
+	<div class='bold-line'></div>
+<div class='container'>
+  <div class='window'>
+    <div class='overlay'></div>
+    <div class='content'>
+      <div class='welcome'>Hello There!</div>
+      <div class='subtitle'>You're a click away from registering to the event</div>
+      <div class='input-fields'>
+        <form action="eventconnect.php" method="post">
+        <input type='text' name="usn"placeholder="USN" class='input-line full-width'>
+        <input type="text" name= "name" class="input-line full-width" placeholder="Enter Name" required>
+    	<input type="text" name= "semsec" class="input-line full-width" placeholder="Semester/Section" required>
+	    <input type="text" name= "branch" class="input-line full-width" placeholder="Enter Department" required>  
+	    <input type="text" name= "mob" class="input-line full-width" placeholder="Enter Phone Number" required>
+    	<input type="email" name= "email" class="input-line full-width" placeholder="Email Id" required>
+      <input type="text" name= "eid" class="input-line full-width" placeholder="Enter Event Id" required>
+
+
+    <select name="er" class="input-field"><font color= "black">
+      <option value="essay_writing">ESSAY WRITING</option>
+      <option value="open_mic">OPEN MIC</option>
+      <option value="open_lecture">OPEN LECTURE</option>
+    </select>
+
+
+      </div>
+      <div><button class='ghost-round full-width'><input type="submit" value="REGISTER"/></button></div>
+    </form>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
